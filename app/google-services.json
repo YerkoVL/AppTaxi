@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "348178137424",
+    "firebase_url": "https://veralezama-taxi.firebaseio.com",
+    "project_id": "veralezama-taxi",
+    "storage_bucket": "veralezama-taxi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348178137424:android:647d2ea6e27a60e2",
+        "android_client_info": {
+          "package_name": "devep.veralezama.app.apptaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348178137424-hui3grjj0pfhi7usa8u152cvui2u3fqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "devep.veralezama.app.apptaxi",
+            "certificate_hash": "e3d17108fc79636bbf9898f3badd5d084d4f3ee6"
+          }
+        },
+        {
+          "client_id": "348178137424-9rc8h6hla65mmkeapf4r1q9iuam6rje2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5pYKZS5wGZ4Q11cfvixQ8Pcu1NNKyrSQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348178137424-9rc8h6hla65mmkeapf4r1q9iuam6rje2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
