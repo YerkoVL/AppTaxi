@@ -80,7 +80,6 @@ public class RegisterActivity extends AppCompatActivity {
                         }
                         adminLocalizacion.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2 * 20 * 1000, 10, escuchadorLocalizacion);
                         //Toast.makeText(ctx,"Debe habilitar su GPS",Toast.LENGTH_SHORT).show();
-                        //return;
                     }
                     autorizacion.createUserWithEmailAndPassword(valCorreo, valPassword)
                             .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
