@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">AppTaxi</string>
+
+    <!--GENERALES-->
+    <string name="error">Error</string>
+    <string name="errorInicio">Error al iniciar lógica</string>
+    <string name="salir">Salir</string>
+
+    <!--PANTALLA LOGIN-->
+    <string name="logCorreo">Correo</string>
+    <string name="logPassword">Contraseña</string>
+    <string name="logRecordarme">Recordarme</string>
+    <string name="logOlvidePassword">¿Olvidaste tu contraseña?</string>
+    <string name="logIngresar">Ingresar</string>
+    <string name="logRegistrarse">Registrarse</string>
+
+    <!--PANTALLA REGISTRO DE USUARIO-->
+    <string name="regNombres">Nombres</string>
+    <string name="regApellidos">Apellidos</string>
+    <string name="regCorreo">Correo</string>
+    <string name="regCelular">Celular</string>
+    <string name="regPassword">Password</string>
+    <string name="regRepPassword">Repetir password</string>
+    <string name="regRegistrar">Registrar</string>
+    <string name="regCompleto">Registro completo</string>
 </resources>

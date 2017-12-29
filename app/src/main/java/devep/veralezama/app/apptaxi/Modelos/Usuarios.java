@@ -1,4 +1,4 @@
-package devep.veralezama.app.apptaxi.Model;
+package devep.veralezama.app.apptaxi.Modelos;
 
 public class Usuarios {
     private String email, password, nombres, apellidos, celular, latitud, longitud, idPerfil, idEstado;

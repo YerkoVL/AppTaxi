@@ -6,4 +6,144 @@
     android:layout_height="match_parent"
     tools:context="devep.veralezama.app.apptaxi.LoginActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_default"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.github.florent37.materialtextfield.MaterialTextField
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:mtf_image="@drawable/ic_user"
+                    app:mtf_openKeyboardOnFocus="true"
+                    app:mtf_backgroundColor="@color/colorHint"
+                    app:mtf_labelColor="@color/colorText"
+                    app:mtf_hasFocus="false">
+
+                    <EditText
+                        android:id="@+id/logEdtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorHint"
+                        android:hint="@string/logCorreo"
+                        android:textColorHint="@color/colorHint"
+                        android:textSize="20sp" />
+                </com.github.florent37.materialtextfield.MaterialTextField>
+
+                <com.github.florent37.materialtextfield.MaterialTextField
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:mtf_image="@drawable/ic_password"
+                    app:mtf_openKeyboardOnFocus="true"
+                    app:mtf_backgroundColor="@color/colorHint"
+                    app:mtf_labelColor="@color/colorText"
+                    app:mtf_hasFocus="false">
+
+                    <EditText
+                        android:id="@+id/logEdtPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorText"
+                        android:hint="@string/logPassword"
+                        android:inputType="textPassword"
+                        android:textSize="20sp" />
+                </com.github.florent37.materialtextfield.MaterialTextField>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginLeft="56dp"
+                android:layout_marginRight="56dp"
+                android:layout_height="1dp"
+                android:background="#59d58d"/>
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:id="@+id/linear4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_weight="2"
+                    android:id="@+id/logChkRecordar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/logRecordarme"
+                    android:textStyle="bold"
+                    android:checked="false"
+                    android:buttonTint="@color/colorText"
+                    android:textColor="@color/colorText"
+                    android:layout_marginLeft="60dp"
+                    android:textSize="11dp" />
+                <TextView
+                    android:layout_weight="2.3"
+                    android:id="@+id/logTxtOlvido"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/logOlvidePassword"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorText"
+                    android:layout_gravity="center"
+                    android:textSize="11dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/logBtnIngresar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect1"
+                android:text="@string/logIngresar"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="6dp"
+                android:elevation="3dp"/>
+
+            <TextView
+                android:id="@+id/logBtnRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect3"
+                android:text="@string/logRegistrarse"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="6dp"
+                android:elevation="3dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
 </RelativeLayout>
