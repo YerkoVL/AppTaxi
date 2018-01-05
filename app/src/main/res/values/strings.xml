@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">AppTaxi</string>
+    <string name="mapbox_token">sk.eyJ1IjoieWVya292ZXJhbGV6YW1hIiwiYSI6ImNqYzJqbGF0ODAwd24yd24zbWdmMnI0cW4ifQ._Go667hA1QrUpcxEocSmyw</string>
 
     <!--GENERALES-->
     <string name="error">Error</string>
     <string name="errorInicio">Error al iniciar lógica</string>
+    <string name="cancelar">Cancelar</string>
     <string name="salir">Salir</string>
 
     <!--PANTALLA LOGIN-->
@@ -23,4 +25,11 @@
     <string name="regRepPassword">Repetir password</string>
     <string name="regRegistrar">Registrar</string>
     <string name="regCompleto">Registro completo</string>
+    <string name="regFaltaCorreo">Ingrese su correo</string>
+    <string name="regFaltaNombres">Ingrese sus nombres</string>
+    <string name="regFaltaApellidos">Ingrese sus apellidos</string>
+    <string name="regFaltaCelular">Ingrese su número de celular</string>
+    <string name="regFaltaContrasena">Ingrese una contraseña</string>
+    <string name="regNoCoincidenContrasena">Las contraseñas no coinciden</string>
+    <string name="regHabilitarGPS">Habilitar GPS</string>
 </resources>
